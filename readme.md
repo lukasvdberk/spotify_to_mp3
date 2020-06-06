@@ -1,4 +1,5 @@
-
+### About
+This is a small script to download your spotify playlist as a mp3. It does this by getting your spotify playlist data and then search it up on youtube. 
 ### Installation
 requirements
 1. python3
