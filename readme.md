@@ -1,8 +1,9 @@
 
 ### Installation
 requirements
-    1. python3
-    2. pip3
+1. python3
+2. pip3
+3. ffmpeg
 
 Install ffmpeg
 
@@ -12,15 +13,15 @@ sudo apt install ffmpeg
 ```
 
 To install all the requirements for this project
-```
-pip install -r requirements.txt
-```
-
-after that
 ```bash
-python3 app.py
+pip install -r requirements.txt
 ```
 
 Fill in the variables in the example-env file.
 Client id and secret come from the spotify api. 
-Make sure when creating an application on the spotify developer platform that redirect url is locahost:80
+Make sure when creating an application on the spotify developer platform that redirect url is http://locahost:8080
+
+After that you can run it
+```bash
+source .example-env && python3 app.py
+```
