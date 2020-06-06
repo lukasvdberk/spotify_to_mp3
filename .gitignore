@@ -1,0 +1,4 @@
+.vsode/
+.vs/
+.cache*
+.env
