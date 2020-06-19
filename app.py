@@ -13,8 +13,6 @@ from os.path import exists
 output_dir = ''
 token = ''
 
-print(os.getenv('CLIENT_ID').strip() == "32a25f943707458d9cc6d177aa8d5140")
-
 class YtLogger(object):
     def debug(self, msg):
         pass
