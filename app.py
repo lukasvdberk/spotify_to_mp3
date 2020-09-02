@@ -59,12 +59,13 @@ def download_from_yt(tracks):
     for i, item in enumerate(tracks['items']):
         track = item['track']
         track_name = track['name']
+        album_name = track['album']['name']
         artist_name = track['artists'][0]['name']
         
         track_name = f'{track_name} - {artist_name}'
 
-        filename = output_dir+'/'+track_name
-        filename = filename.replace(' ', '_')
+        filename = f'{output_dir}/{artist_name}/{album_name}/{track_name}'
+        # filename = filename.replace(' ', '_')
         filename = filename + '.%(ext)s'
 
         # if exists(filename) == False:
