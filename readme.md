@@ -24,5 +24,5 @@ Make sure when creating an application on the spotify developer platform that re
 
 After that you can run it
 ```bash
-source .example-env && python3 app.py
+source .example.env && python3 app.py
 ```
